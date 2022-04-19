@@ -1,11 +1,157 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title><%= title %></title>
-    <link rel='stylesheet' href='/stylesheets/style.css' />
-  </head>
-  <body>
-    <h1><%= title %></h1>
-    <p>Welcome to <%= title %></p>
-  </body>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+    <title>Project Maintenance Software</title>
+    <meta content="" name="description">
+    <meta content="" name="keywords">
+
+    <!-- Favicons -->
+    <link href="assets/img/favicon.png" rel="icon">
+    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+    <!-- Google Fonts -->
+    <link
+        href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+        rel="stylesheet">
+
+    <!-- Vendor CSS Files -->
+    <link href="vendors/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="vendors/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="vendors/boxicons/css/boxicons.min.css" rel="stylesheet">
+    <link href="vendors/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <link href="vendors/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+    <!-- Import Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+    </script>
+
+    <!-- Template Main CSS File -->
+    <link href="stylesheets/index.css" rel="stylesheet">
+
+    <!-- =======================================================
+  * Template Name: eNno - v4.7.0
+  * Template URL: https://bootstrapmade.com/enno-free-simple-bootstrap-template/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+    ======================================================== -->
+</head>
+
+<body>
+
+    <!-- ======= Header ======= -->
+    <header id="header" class="fixed-top">
+        <div class="container d-flex align-items-center justify-content-between">
+
+            <h1 class="logo"><a href="/">Proms</a></h1>
+            <!-- Uncomment below if you prefer to use an image logo -->
+            <!-- <a href="index.html" class="logo"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+
+            <nav id="navbar" class="navbar">
+                <ul>
+                    <li><a class="nav-link scrollto" href="#home">Home</a></li>
+                    <li><a class="nav-link scrollto" href="#fitur">Fitur</a></li>
+                    <li><a class="getstarted scrollto" href="/login">Log In</a></li>
+                </ul>
+                <i class="bi bi-list mobile-nav-toggle"></i>
+            </nav><!-- .navbar -->
+
+        </div>
+    </header><!-- End Header -->
+
+    <!-- ======= Hero Section ======= -->
+    <section id="hero" class="d-flex align-items-center">
+
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 pt-5 pt-lg-0 order-2 order-lg-1 d-flex flex-column justify-content-center">
+                    <h1>Project Maintenance Software</h1>
+                    <h2>Software yang digunakan untuk melakukan mainentance project.</h2>
+                    <div class="d-flex">
+                        <a href="/login" class="btn-get-started scrollto">Log In</a>
+                    </div>
+                </div>
+                <div class="col-lg-6 order-1 order-lg-2 hero-img">
+                    <img src="images/hero-img.png" class="img-fluid animated" alt="">
+                </div>
+            </div>
+        </div>
+
+    </section><!-- End Hero -->
+
+    <main id="main">
+
+        <!-- ======= Featured Services Section ======= -->
+        <section id="featured-services fitur" class="featured-services">
+            <div class="container">
+
+                <div class="row">
+                    <div class="col-lg-4 col-md-6">
+                        <div class="icon-box">
+                            <div class="icon"><i class="bi bi-laptop"></i></div>
+                            <h4 class="title"><a href="">FMEA</a></h4>
+                            <p class="description">Failure Mode Effect Analysis adalah metode mengidentifikasi dan
+                                mencegah sebanyak mungkin mode kegagalan pada suatu unit/alat. Kegagalan pada sebuah
+                                peralatan memiliki dampak pada sebuah sistem dimana peralatan itu beroperasi.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mt-4 mt-md-0">
+                        <div class="icon-box">
+                            <div class="icon"><i class="bi bi-card-checklist"></i></div>
+                            <h4 class="title"><a href="">Metode Analisis Kuantitatif</a></h4>
+                            <p class="description">Metode analisis kuantitatif merupakan metode pendekatan numerik yang
+                                dapat digunakan untuk mengetahui tingkat keandalan suatu peralatan dengan menggunakan
+                                perhitungan secara matematis berdasarkan rumus distribusi yang ada.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mt-4 mt-lg-0">
+                        <div class="icon-box">
+                            <div class="icon"><i class="bi bi-clipboard-data"></i></div>
+                            <h4 class="title"><a href="">Reliability</a></h4>
+                            <p class="description">Reliability adalah probabilitas suatu sistem dapat berkerja sesuai
+                                dengan fungsinya dalam periode waktu. Sehingga untuk mengetahui keandalan sistem
+                                tersebut diperlukan suatu fungsi yang disebut fungsi keandalan.</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section><!-- End Featured Services Section -->
+
+
+
+    </main><!-- End #main -->
+
+    <!-- ======= Footer ======= -->
+    <footer id="footer">
+
+        <div class="container footer-bottom clearfix">
+            <div class="copyright">
+                &copy; Copyright <strong><span>Ade Triyas Ramanda</span></strong>. All Rights Reserved
+            </div>
+        </div>
+    </footer><!-- End Footer -->
+
+    <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
+            class="bi bi-arrow-up-short"></i></a>
+
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/purecounter/purecounter.js"></script>
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="assets/vendor/php-email-form/validate.js"></script>
+
+    <!-- Template Main JS File -->
+    <script src="assets/js/main.js"></script>
+
+</body>
+
 </html>

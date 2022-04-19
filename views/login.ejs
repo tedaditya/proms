@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Login</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="stylesheets/loginUtils.css">
+	<link rel="stylesheet" type="text/css" href="stylesheets/login.css">
+<!--===============================================================================================-->
+</head>
+<body style="background-color: #666666;">
+	
+	<div class="limiter">
+		<div class="container-login100">
+			<div class="wrap-login100">
+				<form action="/login" method="post" class="login100-form validate-form">
+					<span class="login100-form-title p-b-43">
+						Login to continue
+					</span>
+					
+					
+					<div class="wrap-input100 validate-input" data-validate = "Valid email is required: ex@abc.xyz">
+						<input class="input100" type="text" name="email" placeholder="Email">
+						<span class="focus-input100"></span>
+						<!-- <span class="label-input100">Email</span> -->
+					</div>
+					
+					
+					<div class="wrap-input100 validate-input" data-validate="Password is required">
+						<input class="input100" type="password" name="pass" placeholder="Password">
+						<span class="focus-input100"></span>
+						<!-- <span class="label-input100">Password</span> -->
+					</div>
+
+			
+
+					<!-- <div class="container-login100-form-btn" style="margin-top: 32px;">
+						<button value="login" type="submit" class="login100-form-btn" onclick="location.href='/dashboard';">
+							Login
+						</button>
+					</div> -->
+                    <a href="/dashboard" style="margin-top: 32px;" class="login100-form-btn">Log In</a>
+				</form>
+
+				<div class="login100-more" style="background-image: url('images/bg-ade.jpg');">
+				</div>
+			</div>
+		</div>
+	</div>
+
+</body>
+</html>
